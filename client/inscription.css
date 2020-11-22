@@ -1,0 +1,168 @@
+/* Header */
+
+header{
+ height: 120px;
+ font-family: 'Roboto', sans-serif;
+ margin: 0;
+ border-bottom: 1px solid rgb(0, 0, 0);
+border-bottom-color: rgba(0, 0, 0, 0.85);
+}
+
+/* section */
+.formulaire{
+	box-shadow: 2px 2px 2px #ff0000;
+	background-color: white;	
+	margin: 10px;
+	width: 500px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	margin-bottom: 80px;
+}
+.center{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+label{
+	font-family: 'Roboto', sans-serif;
+}
+
+.button{
+	font-family: 'Roboto', sans-serif;
+	background: #ff0000;
+	border-radius: 20px;
+	border-style: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 40px;
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	padding: 0px 8px;
+	text-align: center; 
+
+}
+
+.button:hover{
+	color: #ff0000;
+	background: black;
+}
+
+.button2{
+	font-family: 'Roboto', sans-serif;
+	background: #ff0000;
+	border-radius: 20px;
+	border-style: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	height: 40px;
+	font-size: 30px;
+	color: white;
+	padding: 0px 8px;
+	text-align: center; 
+
+}
+.button2:hover{
+	color: #ff0000;
+	background: black;
+}
+
+input:focus:invalid, textarea:focus:invalid{
+	border-color: #FF0000;
+	background-image: none;
+}
+
+input:focus:valid, textarea:focus:valid{
+	border-color: #56C93F;
+	background-image: none;
+}
+
+input{
+	size: 50px;
+	height:25px;
+	width: 250px;
+	border-radius: 5px;
+	padding-left: 10px;
+
+}
+
+.Pasdecompte{
+	background-color: rgb(255, 255, 255);	
+	margin: 10px;
+	width: 500px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 80px;
+}
+
+/* Bas de page */
+
+footer
+{
+	position: absolute;
+	bottom: none;
+	left: none;
+	right: none;
+	width: 100%;
+	margin: 0;
+
+	background-color:  rgb(0, 0, 0);
+
+
+}
+
+.reseaux
+{
+	width: 40px;
+	height: 40px;
+	position: relative;
+}
+
+#BasDePage
+{
+	margin-left: 350px;
+	margin-right: 350px;
+
+	width: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.apropos
+{
+	font-family: 'Roboto';
+	font-size: 18px;
+	color: white;
+	text-align: left;
+	margin-left: 250px;
+}
+
+#propos p{
+	color: white;
+	padding: 10px;
+	font-family: 'Crete Round', serif;
+	border-bottom: 1px solid #777;
+}
+#propos a{
+	color: white;
+	font-family: 'Crete Round', serif;
+	padding: 20px;
+}
+
+ .copyright{
+ 	text-align: center;
+ 	font-weight: bold;
+ 	padding-top: 30px;
+ 	color: #777;
+ }
